@@ -1,232 +1,272 @@
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-body{
-  background-color: rgb(244, 240, 240);
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-  
 
-    @media (min-width: 1024px) {
-      .principal {
-        position: relative;
-        width: 80%; /* Largeur en pourcentage */
-        max-width: 1200px; /* Largeur maximale */
-        left: 65px;
-        
-      }
-    }
-    
-  .bloc1 {
-    position: relative;
-    right: -220px;
-    top: 100px;
-    background-color: hsl(31, 66%, 93%);
-    width: 300px;
-    height: 450px;
-    border-radius: 25px;
-    
-  }
-
-  .bloc2 {
-    position: relative;
-    right: -550px;
-    top: -399px;
-    background-color: hsl(256, 67%, 59%);
-    width: 650px;
-    height: 280px;
-    border-radius: 25px;
-  }
-
-  .bloc3 {
-    position: relative;
-    right: -1230px;
-    top: -710px;
-    background-color: hsl(254, 88%, 90%);
-    width: 300px;
-    height: 600px;
-    border-radius: 25px;
-  }
-  .bloc4 {
-    position: relative;
-    left: 220px;
-    top: -855px;
-    background-color: hsl(39, 100%, 71%);
-    width: 300px;
-    height: 420px;
-    border-radius: 25px;
-  }
-  .bloc5 {
-    position: relative;
-    left: 890px;
-    top: -1450px;
-    background-color: hsl(39, 100%, 71%);
-    width: 310px;
-    height: 285px;
-    border-radius: 25px;
-    overflow: hidden;
-  }
-  .bloc6 {
-    position: relative;
-    left: 550px;
-    top: -1735px;
-    background-color: white;
-    width: 310px;
-    height: 288px;
-    border-radius: 25px;
-    overflow: hidden;
-  }
-
-  .bloc7 {
-    position: relative;
-    left: 550px;
-    top: -1770px;
-    background-color: white;
-    width: 310px;
-    height: 283px;
-    border-radius: 25px;
-  }
-
-  .bloc8 {
-    position: relative;
-    left: 891px;
-    top: -2090px;
-    background-color: hsl(256, 67%, 59%);
-    width: 640px;
-    height: 278px;
-    border-radius: 25px;
-  }
-  .post{
-    position: relative;
-    /*text-align: center;*/
-    top: 60px;
-    font-size: 32px;
-    left: 50px;
-
-  }
- 
-  .quicker{
-    color: blueviolet;
-  }
-  .on {
-    position: relative;
-    height: 80px;
-    top: 90px;
-    left: 65px;
-  }
-  .b2{
-    position: relative;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    top: 34px;
-  }
-  .x10{
-    color:  hsl(39, 100%, 71%);
-  }
-  .imb2{
-    position: relative;
-    height: 35px;
-    top: -42px;
-  }
-  .b2l{
-    position: relative;
-    font-size: 20px;
-    top: -60px;
-  }
-  .B3{
-    position: relative;
-    top: 90px;
-    font-size: 34px;
-
-  }
-  .img3 {
-    position: relative;
-    height: 250px;
-    top: 23px;
-    width: 200px;
-    left: 40px;
-  }
-  .opti{
-    position: relative;
-    font-size: 15px;
-    left: 29px;
-    
-  }
-  .b4{
-    position: relative;
-
-  }
-  .imb4{
-    position: relative;
-    height: 250px;
-    left: 35px;
-    top: 30px ;
-  }
-  .bp4{
-    position: relative;
-    font-size: 30px;
-    top: 25px;
-    left: 23px;
-  }
-  .imb6{
-    position: relative;
-    height: 72px;
-    top: 20px;
-    width: 410px;
-  }
-  .b6p{
-    position: relative;
-    font-size: 30px;
-    left: 14px;
-    top: 20px;
-  }
-  .b5p{
-    position: relative;
-    font-size: 30px;
-    left: 20px;
-    top: 23px;
-  }
-  .imb5{
-    position: relative;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #141b54;
+}
+.container2 {
+    width: 80%;
     height: 150px;
-    left: 25px;
-    top: 18px;
-    width: 260px;
-  }
-  .b7p{
-    position: relative;
-    font-size: 60px;
-    left: 50px;
-    top: 20px;
-  }
-  .b7p2{
-    position: relative;
-    left: 50px;
-  }
-  .imb7{
-    position: relative;
-    height: 100px;
-    left: 11%;
-  }
+    margin: auto;
+    overflow: hidden;
+}
 
-  .imb8{
-    position: relative;
-    height: 250px;
-    top: -160px;
-    left: 30px;
-  }
-  .b8p{
-    position: relative;
-    left: 320px;
-    font-size: 40px;
-    top: 70px;
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+/*
+header {
+    background: #333;
+    background-image: url('/home/student/Documents/Programming-Exercises/projects/PORTFOLIO/corpus.webp'); /* Remplace par le chemin de ton image */
+   /* background-size: cover; /* Ajuste l'image pour couvrir tout le conteneur */
+    /*background-position: center; /* Centre l'image */
+    /*background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    /*padding: 20px; /* Ajoute un peu d’espace à l’intérieur pour que le contenu soit bien visible */
+    /*color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}*/
+
+header {
+    position: fixed; /* Fixe le header en haut */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    background-image: url('/home/student/Documents/Programming-Exercises/projects/PORTFOLIO/top.jpeg'); /* Chemin relatif */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 5px;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    z-index: 900; /* S'assure que le header est au-dessus des autres éléments */
+    height: 14%;
+}
+
+/* Empêcher le contenu d'être caché sous le header */
+body {
+    padding-top: 100px; /* Ajuste selon la hauteur du header */
+}
+
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 20px;
+}
+
+header nav ul li a:hover {
+    color: #77aaff;
+}
+.petit{
     color: white;
-  }
-  .b3p{
+    font-size: 30px;
+}
+.about, .skills, .projects, .contact {
+    padding: 20px 0;
+}
+
+.about h2, .skills h2, .projects h2, .contact h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.about{
+    color: white;
+}
+
+.about h2, .skills h2 {
+    font-size: 40px; /* Ajuste la taille selon ton besoin */
+    font-weight: bold; /* Rend le texte plus visible */
+   /* text-transform: uppercase;  Met le texte en majuscules si souhaité */
+    margin-bottom: 10px; /* Ajoute un espace sous le titre */
+}
+
+
+img {
+    width: 350px;
+    height: 480px;
+    border-radius: 50%; /* Plus le % est élevé, plus l’ovale est prononcé */
+    object-fit: cover;
+    border: 5px solid #ddd; /* Bordure blanche foncée */
+}
+.shop {
+    width: 180px;
+    height: 200px;
+    border-radius: 50%; /* Plus le % est élevé, plus l’ovale est prononcé */
+    object-fit: cover;
+    border: 5px solid #ddd; /* Bordure blanche foncée */
+
+}
+
+p{
+    font-size: large;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 colonnes */
+    grid-template-rows: repeat(3, auto); /* 3 lignes */
+    gap: 50px; /* Espacement entre les blocs */
+    width: 99%;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 70px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.container22 {
     position: relative;
-    top: -35px;
-    left: 15px;
-  }
-  .opti{
-    position: relative;
-    font-size: 20px;
-  }
+    top: 50px;
+    margin: 40px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.skill {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 60px; /* Ajoute un espace de 50px entre chaque section */
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+
+/*
+.skills ul li {
+    background: #598eeb;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    margin: 15px;
+
+}*/
+
+.project {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container22 {
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    gap: 20px; /* Ajoute un espace entre l'image et le texte */
+}
+
+strong{
+    font-size:x-large
+  
+}
+
+.project .con{
+    display: flex; 
+    align-items: center; /* Aligner l'image et le texte verticalement */
+    gap: 30px; /* Espacement entre le texte et l'image */
+}
+
+.project .con p {
+    flex: 1; /* Le texte prend tout l'espace disponible */
+    text-align: justify;
+}
+
+.project .con img {
+    width: 350px; /* Ajuste la taille de l'image */
+    height: auto;
+    border-radius: 50px; /* Coins arrondis pour un meilleur design */
+}
+
+
+.koi{
+    color: white;
+}
+
+. contact-info p{
+    color: white;
+}
+.contact-item {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color:white
+}
+
+.availability {
+    font-weight: 600;
+    margin-top: 15px;
+    color:  white
+}
+
+.highlight {
+    color:white; /* Couleur verte pour mise en valeur */
+}
+
+i {
+    margin-right: 10px;
+    width: 20px;
+    color: #3498db; /* Bleu pour les icônes */
+    color:white;
+}
